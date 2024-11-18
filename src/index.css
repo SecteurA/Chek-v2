@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #4f46e5;
+  --rdp-background-color: #e0e7ff;
+  margin: 0;
+}
+
+[dir="rtl"] .rdp-nav_button_previous {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .rdp-nav_button_next {
+  transform: rotate(180deg);
+}
